@@ -2,11 +2,13 @@
 
 #### Step-1: First create the New Item in jenkins with the name and choose pipeline.
 
+
      ![image](https://user-images.githubusercontent.com/42695637/190360001-6b883a79-d160-4cc3-9618-18c2a3f69c18.png)
+
 
 #### Step-2: Give the same configuration as like previous but now we need to mention the repository URL for github which is for docker build image
 
-     ````https://github.com/mayankkh1/docker.git```
+    ```https://github.com/mayankkh1/docker.git```
      
 #### Step-3: Put the jenkins file which is present in current repository upload in your code.
 
