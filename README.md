@@ -34,18 +34,9 @@
   
 ```usermod -aG docker ubuntu```
      
-#### Step-9:  Now try to run the build manually first if it's working fine then try to update the change in github and then check if working fine and get the build image in dockerhub or not.
+#### Step-9:  Now try to run the build manually first if it's working fine then try manually to upload in dockerhub
 
-#### Step-10: After that pull the image from dockerhub with below command:
- 
-```docker pull mak1993/reactjs:29```
-
-#### Step-11: Now run the container with same image with below command:
-
-```docker container run -d -p 8001:80 --name mydockeran mak1993/reactjs:29```
-    
-#### Step-12: Now try to run the website on 8081 port with the server IP on which docker is installed and image is present.    
-    
+#### Step-10: Afer that we need to modify jenkin file according to existing jenkin file in directory for CI and CD. 
     
      
      
