@@ -1,4 +1,4 @@
-####### As we have build the jenkin server and reactjs server in previous doc and build image from docker for reactjs app in application server. Now we have to build image from jenkin only and push the image in docker with below steps and pull the image from dockerhub run the container with jenkin only.
+As we have build the jenkin server and reactjs server in previous doc and build image from docker for reactjs app in application server. Now we have to build image from jenkin only and push the image in docker with below steps and pull the image from dockerhub run the container with jenkin only.
 
 #### Step-1: First create the New Item in jenkins with the name and choose pipeline.
 
