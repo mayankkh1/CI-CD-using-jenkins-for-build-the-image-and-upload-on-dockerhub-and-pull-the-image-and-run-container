@@ -51,6 +51,7 @@ As we have build the jenkin server and reactjs server in previous doc and build 
     
 #### Step-11: Now we have to enable the caching in nginx as like below:
 
+ ``` 
  http {
     # ...
     /data/nginx/cache keys_zone=mycache:10m loader_threshold=300 loader_files=200;
@@ -61,7 +62,7 @@ As we have build the jenkin server and reactjs server in previous doc and build 
         }
        }
     }
-
+ ```  
 
      
 
